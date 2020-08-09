@@ -1,0 +1,23 @@
+{
+  "name": "aboutme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adeonita/adeonita.github.io.git"
+  },
+  "author": "Adeonita dos Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adeonita/adeonita.github.io/issues"
+  },
+  "homepage": "https://github.com/Adeonita/adeonita.github.io#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
