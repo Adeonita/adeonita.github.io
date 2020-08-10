@@ -5,18 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
     <title>Adeonita</title>
 </head>
 <body>
     <div id="container">
         <div id="skills">
-            <img src="./images/docker.svg" alt="">
-            <img src="./images/graphql.svg" alt="">
-            <img src="./images/javasc.svg" alt="">
-            <img src="./images/mysql.svg" alt="">
-            <img src="./images/nodejs.svg" alt="">
-            <img src="./images/type.svg" alt="">
-            <img id="php" src="./images/php-logo.png" alt="">
+            <div class="legend">
+                <img id="docker" src="./images/docker.svg" alt="">
+                <label for="docker">basic</label>
+            </div>
+            <div class="legend">
+                <img src="./images/graphql.svg" alt="">
+                <label for="graphql"> basic</label>
+            </div>
+            <div class="legend">
+                <img id="javasc" src="./images/javasc.svg" alt="">                
+                <label for="javasc">intermediate</label>
+            </div>
+            <div class="legend">
+                <img id="mysql" src="./images/mysql.svg" alt="">
+                <label for="mysql">basic</label>
+            </div>
+            <div class="legend">
+                <img id="nodejs" src="./images/nodejs.svg" alt="">
+                <label for="nodejs">basic</label>
+            </div>
+            <div class="legend">
+                <img id="typesc" src="./images/type.svg" alt="">
+                <label for="typesc">intermediate</label>
+            </div>
+            <div class="legend">
+                <img id="php" src="./images/php.svg" alt="">
+                <label id="label-php" for="php">intermediate</label>
+            </div>
         </div>
         <div class="data">
             <div id="title"> 
@@ -40,7 +62,7 @@
                     },
                     theBeginning
                     {
-                        message: 'Lorem Impsum'
+                        message: 'Após o curso técnico em eletroeletrônica'
                     }, 
                     curiosity
                     {
@@ -51,6 +73,7 @@
         </div>
     </div>
 </body>
-      
+
+<script src="./utilities/functions.js"></script>
 <script src="./index.js"></script>
 </html>
