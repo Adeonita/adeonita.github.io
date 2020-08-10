@@ -4,10 +4,6 @@ body{
     color: white;
 }
 
-h1 {
-    text-align: center;
-}
-
 img{
     height: 60px;
     width: 60px;
@@ -19,19 +15,26 @@ label{
     font-size: 14px;
 }
 
-
-
-.legend{
-    display: flex;
+/* .legend{
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+} */
+
+.d-flex{
+    display: flex;
+}
+
+.fd-column{
+    flex-direction: column;
+}
+
+.just-content-center{
+    justify-content: center;
 }
 
 #container{
-    display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
     background-image: url('images/bgImage.svg');
     background-repeat: no-repeat;
     background-position: center;
@@ -39,20 +42,15 @@ label{
 }
 
 #title{
-    display: flex;
-    flex-direction: column;
     align-items: center;
-}
-
-#description{
-    margin-top: 30px;
 }
 
 #skills{
     margin-left: 3%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+}
+
+#description{
+    margin-top: 30px;
 }
 
 #photo{
@@ -62,7 +60,7 @@ label{
     margin-top: 0 !important;
 }
 
-#php{
+#logo-php{
     width: 67px !important;
     height: 42px !important;
 }
