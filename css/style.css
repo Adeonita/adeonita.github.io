@@ -15,11 +15,15 @@ label{
     font-size: 14px;
 }
 
-/* .legend{
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-} */
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;    
+    font-size: 12px;
+}
 
 .d-flex{
     display: flex;
@@ -33,9 +37,16 @@ label{
     justify-content: center;
 }
 
+.social-media{
+    height: 20px;
+    width: 20px;
+    margin-top: 0px !important;
+    margin-left: 3px;
+}
+
 #container{
     flex-direction: row-reverse;
-    background-image: url('images/bgImage.svg');
+    background-image: url('../images/bgImage.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 853px;
@@ -68,5 +79,15 @@ label{
 #label-php{
     padding-left: 7px !important;
 }
+
+#social-media{
+    margin-left: -30px;
+}
+
+#linkedin-logo{
+    padding-left: 15px;
+}
+
+
 
 

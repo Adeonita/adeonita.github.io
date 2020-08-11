@@ -4,30 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <link href="css/hover.css" rel="stylesheet" media="all">
+    <link href="css/style.css" rel="stylesheet" >
 
     <title>Adeonita</title>
 </head>
 <body>
     <div class="d-flex just-content-center" id="container">
         <div class="d-flex fd-column just-content-center" id="skills">
-            <img src="./images/docker.svg" alt="">
-            <img src="./images/graphql.svg" alt="">
-            <img src="./images/mysql.svg" alt="">
-            <img src="./images/nodejs.svg" alt="">
-            <img src="./images/javasc.svg" alt="">                
-            <img src="./images/type.svg" alt="">
-            <img src="./images/php.svg" id="logo-php" alt="">
-            <img src="./images/git.svg" alt="">
+            <img src="./images/docker.svg" class="hvr-float" alt="">
+            <img src="./images/graphql.svg" class="hvr-float" alt="">
+            <img src="./images/mysql.svg" class="hvr-float" alt="">
+            <img src="./images/nodejs.svg" class="hvr-float" alt="">
+            <img src="./images/javasc.svg" class="hvr-float" alt="">                
+            <img src="./images/type.svg" class="hvr-float" alt="">
+            <img src="./images/php.svg" class="hvr-float" id="logo-php" alt="">
+            <img src="./images/git.svg" class="hvr-float" alt="">
         </div>
         <div>
-            <div class="d-flex fd-column" id="title"> 
+            <div class="d-flex fd-column hvr-grow" id="title"> 
                 <h1>
                     Hello, girls!
                 </h1>
                 <img id="photo" src="images/me.jpeg" >
             </div>
-           <div id="description">
+           <div class="hvr-grow-shadow" id="description">
                 <pre>
                     candidate 
                     {
@@ -39,7 +41,7 @@
                     {
                         message: "Além de compactuar com os valores da empresa e 
                         admirar as políticas de inclusão social, de gênero e raça
-                        possuo mais familiariade e experiência com o backend"
+                        possuo afindade, familiariade e experiência com o backend"
                     },
                     theBeginning
                     {
@@ -52,6 +54,19 @@
                 </pre>
             </div> 
         </div>
+        <div class="d-flex" id="social-media">
+            <a href="https://github.com/Adeonita">
+                <img src="./images/githubIcon.png" class="social-media animate__animated animate__swing" alt="">
+            </a>
+            <a href="https://www.linkedin.com/in/adeonita/">
+                <img src="./images/linkedinIcon.png" class="social-media animate__animated animate__swing" id="linkedin-logo" alt="">
+            </a>
+        </div>
     </div>
 </body>
+<div class="d-flex just-content-center footer hvr-grow-shadow">
+    <p>
+        adeonita.sousa@gmail.com
+    </p>
+</div>
 </html>
